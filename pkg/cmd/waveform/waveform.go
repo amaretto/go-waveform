@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/amaretto/go-waveform/pkg/waveform"
+	"github.com/amaretto/waveform/pkg/waveform"
 	"github.com/spf13/cobra"
 )
 
