@@ -34,7 +34,7 @@ type Waveform struct {
 }
 
 // NewWaveformer returns instance of Waveformer
-func NewWaveformer() *Waveformer {
+func NewWaveformer(heightMax, sampleInterval, smoothSampleCount int) *Waveformer {
 	w := new(Waveformer)
 	w.HeightMax = heightMax
 	w.SampleInterval = sampleInterval
